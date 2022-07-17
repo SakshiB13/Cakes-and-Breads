@@ -1,4 +1,4 @@
-.video-container {
+.video-container video {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -6,16 +6,7 @@
     z-index: -1;
 }
 
-.video-container video {
-    min-width: 100% ;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .hero-image{
     /* background-image: url("/public/images/bakeryshelf.jpg");   */
@@ -65,13 +56,6 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0,0,0.2);
     object-fit: cover;
 }
-    .hero-image > video{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;    
-    } 
     .hero-image > h1{
         color: #fff;
         font-size: 45px;
@@ -91,13 +75,6 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0,0,0.2);
     object-fit: cover;
 }
-    .hero-image > video{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;    
-    } 
     .hero-image > h1{
         justify-content: center;
         font-size: 60px;
